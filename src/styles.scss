@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Import Media Queries
+@import "./mq";
+
+// Set brand colors
+
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+// $scheme-main: #383838;
+
+
+// Update component variables
+
+
+//#region navbar
+$navbarBGcolor: #383838;
+$navbar-background-color: $navbarBGcolor;
+$navbar-dropdown-background-color: $navbarBGcolor;
+
+$navbar-item-hover-background-color: gray;
+$navbar-dropdown-item-hover-background-color: gray;
+
+$navbar-item-color: #fff;
+
+$navbar-burger-color: #C1C1C1;
+
+$navLink: #f1f1f1;
+$navbar-item-hover-color: $navLink;
+//#endregion
+
+// Import Bulma Last
+@import "../node_modules/bulma/bulma.sass"
+
